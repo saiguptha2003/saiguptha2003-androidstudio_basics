@@ -33,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
 Fragment1or2or3.java
 
 ```java
+
 package com.example.tablayout;
 import android.os.Bundle;
 
@@ -59,7 +61,9 @@ public class fragment1 extends Fragment {
 ```
 
 ViewAdapter.java
+
 ```java
+
 package com.example.tablayout;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
