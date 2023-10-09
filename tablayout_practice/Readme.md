@@ -114,13 +114,9 @@ public class viewAdapter extends FragmentPagerAdapter {
 
 outputs:
 
-<img src="https://github.com/saiguptha2003/saiguptha2003-androidstudio_basics/blob/main/tablayout_practice/Screenshot%202023-10-09%20134645.png"/>
-
-<img src="https://github.com/saiguptha2003/saiguptha2003-androidstudio_basics/blob/main/tablayout_practice/Screenshot%202023-10-09%20134634.png"/>
-
-<img src="https://github.com/saiguptha2003/saiguptha2003-androidstudio_basics/blob/main/tablayout_practice/Screenshot%202023-10-09%20134623.png"/>
-
-
+![Alt text](https://github.com/saiguptha2003/saiguptha2003-androidstudio_basics/blob/main/tablayout_practice/Screenshot%202023-10-09%20134645.png")
+![Alt text](https://github.com/saiguptha2003/saiguptha2003-androidstudio_basics/blob/main/tablayout_practice/Screenshot%202023-10-09%20134634.png)
+![Alt text](https://github.com/saiguptha2003/saiguptha2003-androidstudio_basics/blob/main/tablayout_practice/Screenshot%202023-10-09%20134623.png)
 
 
 
