@@ -2,6 +2,7 @@ Important code parts
 
 I main Activity add this code 
 
+MainActivity.java
 ```java
 
 package com.example.tablayout;
@@ -32,4 +33,83 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+Fragment1or2or3.java
+
+```java
+package com.example.tablayout;
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+public class fragment1 extends Fragment {
+    public fragment1() {
+    }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View view;
+        view= inflater.inflate(R.layout.fragment_fragment1, container, false);
+        return view;
+    }
+}
+
+```
+
+ViewAdapter.java
+```java
+package com.example.tablayout;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+public class viewAdapter extends FragmentPagerAdapter {
+    public viewAdapter(@NonNull FragmentManager fm) {
+        super(fm);
+    }
+
+    @NonNull
+    @Override
+    public Fragment getItem(int position) {
+        if(position==0)
+        {
+            return new fragment1();
+        }
+        else if(position==1)
+        {
+            return new fragment2();
+        }
+        else
+        {
+            return new fragment3();
+        }
+    }
+    @Override
+    public int getCount() {
+        return 3;
+    }
+    @Override
+    public CharSequence getPageTitle(int position) {
+        if(position==0)
+        {
+            return "Tab1";
+        }
+        else if(position==1)
+        {
+            return "Tab2";
+        }
+        else
+        {
+            return "Tab3";
+        }
+    }
+}
+```
+
+
+
+
+
 
